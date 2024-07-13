@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #8338ec;
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#score, #time-left {
+    font-size: 36px;
+    margin: 0;
+}
+
+.grid {
+    width: 606px;
+    height: 606px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mole {
+    background-color: #ff006e;
+    color: #8338ec;
+}
+
+.square:hover {
+    background-color: #fff;
+    color: #8338ec;
+}
+
